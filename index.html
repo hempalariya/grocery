@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <!--***************header_section***************-->
+    <header>
+        <div class="logo"><a href="#"><ion-icon name="basket-outline"></ion-icon> Grocery</a></div>
+        <nav><ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#features">features</a></li>
+            <li><a href="#products">products</a></li>
+            <li><a href="#categories">categories</a></li>
+            <li><a href="#review">review</a></li>
+            <li><a href="#blogs">blogs</a></li>
+        </ul></nav>
+        <div class="user_setting">
+            <button type="button" class="bar"><ion-icon name="reorder-three-outline"></ion-icon></button>
+            <button type="button" class="search"><ion-icon name="search-outline"></ion-icon></button>
+            <button type="button" class="cart"><ion-icon name="cart-outline"></ion-icon></button>
+            <button type="button" class="user"><ion-icon name="person-outline"></ion-icon></button>
+        </div>
+
+        <!--search_bar-->
+        <form action="" class="search_item">
+            <input type="search">
+            <ion-icon name="search-outline"></ion-icon>
+        </form>
+
+        <!--cart-->
+        <div class="cart_box">
+            <div class="item_list">
+                <div>
+                    <img src="./images/1.png" alt="">
+                    <p>Product1</p>
+                    <span>200</span>
+                    <span>1</span>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </div>
+                <div>
+                    <img src="./images/2.png" alt="">
+                    <p>Product</p>
+                    <span>300</span>
+                    <span>1</span>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </div>
+                <div>
+                    <img src="./images/3.png" alt="">
+                    <p>Product3</p>
+                    <span>50</span>
+                    <span>1</span>
+                    <ion-icon name="trash-outline"></ion-icon>
+                </div>
+            </div>
+            <button type="button">Checkout</button>            
+        </div>
+
+        <!--user_form-->
+        <div class="user_form">
+            <h1>
+                LogIn
+            </h1>
+            <form action="#">
+                <div class="username">
+                    <input type="text" placeholder="Username/Email">
+                </div>
+                <div class="user_password">
+                    <input type="password" placeholder="password">
+                </div>
+
+                <p>forget your password <a href="#">Click Here</a></p>
+                <p>don't have an accout <a href="#">Click Here</a></p>
+                <button type="submit">Log In</button>
+            </form>
+        </div>
+
+
+    </header>
+    
+    <!--***************intro_section***************-->
+    <div class="intro" id="home">
+        <div class="intro_img img1">
+            <img src="./images/hero_img_1.png" alt="image of fruits and vegitables">
+        </div>
+        <div class="intro_des">
+            <h1>fresh and <span>organic</span> products for you</h1>
+            <p>This is a website designed for demonstration of skill in html, css and javascript!! Hope your like it </p>
+            <button type="button">Shop Now</button>
+        </div>
+        <div class="intro_img img1">
+            <img src="./images/hero_img_2.png" alt="image of fruits and vegitables">
+        </div>
+        </div>
+    </div>
+
+    <!--***************features_section***************-->
+
+    <section id="features">
+        
+            <h1>Our <span>Feature</span></h1>
+        
+            <div class="feature_section grid">
+                <div class="card feature_card">
+                    <div class="img">
+                        <img src="./images/fresh.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh And Organic</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus enim rem deserunt at recusandae quidem hic praesentium dolor! Est.</p>
+                    </div>
+                    <div class="card_footer">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card feature_card">
+                    <div class="img">
+                        <img src="./images/delivery.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Free Delivery</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus enim rem deserunt at recusandae quidem hic praesentium dolor! Est.</p>
+                    </div>
+                    <div class="card_footer">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+                <div class="card feature_card">
+                    <div class="img">
+                        <img src="./images/payment.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Easy Payment</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adip Est.</p>
+                    </div>
+                    <div class="card_footer">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+       
+    </section >
+    <section id='products'>
+        <h1> Our <span>Products</span></h1>
+        <div class="product_list">
+            <div class="row flex">
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/1.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Banana</h3>
+                        <p class="price">40/- - 60/- per dozen</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/2.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Cucumber</h3>
+                        <p class="price">40/- - 60/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/3.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Brinjal</h3>
+                        <p class="price">40/- - 60/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+                
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/4.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Oranges</h3>
+                        <p class="price">40/- - 60/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/5.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">1
+
+
+                        <h3>Fresh Apples</h3>
+                        <p class="price">40/- - 60/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row flex">
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/7.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Pineapples</h3>
+                        <p class="price">100/- - 120/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/8.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Carrots</h3>
+                        <p class="price">30/- - 40/- per dozen</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/9.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh corn</h3>
+                        <p class="price">55/- - 70/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+                
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/10.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <h3>Fresh Watermelon</h3>
+                        <p class="price">30/- - 50/- per kg</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="card product_card">
+                    <div class="img">
+                        <img src="./images/11.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">1
+
+
+                        <h3>Fresh Apples</h3>
+                        <p class="price">40/- - 60/- per dozen</p>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>
+                    <div class="card_footer">
+                        <button type="button" class="add_item_to_cart">Add To Cart</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--*********************section_catagories****************************-->
+
+    <section id="categories">
+        <h1>Product <span>categories</span></h1>
+        <div class="product_categories grid">
+            <div class="card feature_card">
+                <div class="img">
+                    <img src="./images/cat1.png" alt="" draggable="false">
+                </div>
+                <div class="description">
+                    <h3>Vegetables</h3>
+                    <p>Up to 4% off</p>
+                </div>
+                <div class="card_footer">
+                    <button type="button" class="shop_now">Shop Now</button>
+                </div>
+            </div>
+            <div class="card feature_card">
+                <div class="img">
+                    <img src="./images/cat2.png" alt="" draggable="false">
+                </div>
+                <div class="description">
+                    <h3>Fresh Fruits</h3>
+                    <p>Up to 4% off</p>
+                </div>
+                <div class="card_footer">
+                    <button type="button" class="shop_now">Shop Now</button>
+                </div>
+            </div>
+            <div class="card feature_card">
+                <div class="img">
+                    <img src="./images/cat3.png" alt="" draggable="false">
+                </div>
+                <div class="description">
+                    <h3>Dairy Products</h3>
+                    <p>Up to 4% off</p>
+                </div>
+                <div class="card_footer">
+                    <button type="button" class="shop_now">Shop Now</button>
+                </div>
+            </div>
+            <div class="card feature_card">
+                <div class="img">
+                    <img src="./images/cat4.png" alt="" draggable="false">
+                </div>
+                <div class="description">
+                    <h3>Fresh Meat</h3>
+                    <p>Up to 4% off</p>
+                </div>
+                <div class="card_footer">
+                    <button type="button" class="shop_now">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--*********************Section_review***************************-->
+
+    <section id="review">
+        <h1>Customer's <span>Review</span></h1>
+        <div class="review_section row flex">
+            <div class="card review_card">
+                    <div class="img">
+                        <img src="./images/person.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <p class="cust_comment">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, eum!l orem Lorem ipsum dolor sit amet.
+                        </p>
+                        <h3>Deepak Tiwari</h3>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>        
+            </div>
+            <div class="card review_card">
+                    <div class="img">
+                        <img src="./images/person.png" alt="" draggable="false">
+                    </div>
+                    <div class="description">
+                        <p class="cust_comment">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, eum!l orem Lorem ipsum dolor sit amet.
+                        </p>
+                        <h3>Deepak Tiwari</h3>
+                        <p class="rating">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star-half"></ion-icon>
+                        </p>
+                    </div>        
+            </div>
+
+            <div class="card review_card">
+                <div class="img">
+                    <img src="./images/person.png" alt="" draggable="false">
+                </div>
+                <div class="description">
+                    <p class="cust_comment">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci, eum!l orem Lorem ipsum dolor sit amet.
+                    </p>
+                    <h3>Deepak Tiwari</h3>
+                    <p class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-half"></ion-icon>
+                    </p>
+                </div>        
+        </div>
+            
+        </div>
+    </section>
+
+    <!--***********************blog_section***********************************-->
+    <section id="blogs">
+        <h1>Our <span>Blogs</span></h1>
+        <div class="blogs_section row flex">
+            <div class="card blog_card">
+                <div class="img">
+                    
+                </div>
+                <div class="description">
+                    <div class="user_details">
+                       <p class="by_user"><ion-icon name="person"></ion-icon> By User</p>
+                       <p class="blog_date"><ion-icon name="calendar-clear"></ion-icon> 02 October, 2024</p>
+                    </div>
+                    <h3>Fresh and Organic vegetables and fruits</h3>
+                    <p class="blog_des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dolorem.</p>
+                </div>
+                <div class="card_footer">
+                    <a href="">Read More</a>
+                </div>
+            </div>
+
+            <div class="card blog_card">
+                <div class="img">
+                    
+                </div>
+                <div class="description">
+                    <div class="user_details">
+                       <p class="by_user"><ion-icon name="person"></ion-icon> By User</p>
+                       <p class="blog_date"><ion-icon name="calendar-clear"></ion-icon> 02 October, 2024</p>
+                    </div>
+                    <h3>Fresh and Organic vegetables and fruits</h3>
+                    <p class="blog_des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dolorem.</p>
+                </div>
+                <div class="card_footer">
+                    <a href="">Read More</a>
+                </div>
+            </div>
+            <div class="card blog_card">
+                <div class="img">
+                    
+                </div>
+                <div class="description">
+                    <div class="user_details">
+                       <p class="by_user"><ion-icon name="person"></ion-icon> By User</p>
+                       <p class="blog_date"><ion-icon name="calendar-clear"></ion-icon> 02 October, 2024</p>
+                    </div>
+                    <h3>Fresh and Organic vegetables and fruits</h3>
+                    <p class="blog_des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, dolorem.</p>
+                </div>
+                <div class="card_footer">
+                    <a href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div>
+            <div class="social_links">
+                <h2>Grocery</h2>
+                <p>Feel free to follow us on our social media handlers.</p>
+                <div>
+                    <span><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></ion-icon></span>
+                    <span><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></ion-icon></span>
+                    <span><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></ion-icon></span>
+                    <span><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></ion-icon></span>
+                </div>
+            </div>
+            <div class="contact_footer">
+                <h2>Contact Info</h2>
+                <div>
+                    <p><span><ion-icon name="call"></ion-icon></span> 13456789</p>
+                    <p><span><ion-icon name="mail"></ion-icon></span> something@xyz.com</p>
+                    <p><span><ion-icon name="call"></ion-icon></span> Bhimtal, Nainital, 263136</p>
+                </div>
+            </div>
+    
+            <div class="quick_links">
+                <h2>Quick Links</h2>
+                <div>
+                    <p><span><ion-icon name="arrow-forward"></ion-icon></span> <a href="#home"> Home</a></p>
+                    <p><span><ion-icon name="arrow-forward"></ion-icon></span> <a href="#features"> Features</a></p>
+                    <p><span><ion-icon name="arrow-forward"></ion-icon></span> <a href="#products"> Product</a></p>
+                    <p><span><ion-icon name="arrow-forward"></ion-icon></span> <a href="#categories"> Categories</a></p>
+                    <p><span><ion-icon name="arrow-forward"></ion-icon></span> <a href="#review"> Review</a></p>
+                    <p><span><ion-icon name="arrow-forward"></ion-icon></span> <a href="#blogs"> Blogs</a></p>
+                </div>
+            </div>
+            <div class="news_letter">
+                <h2>Newsletter</h2>
+                <div>
+                    <p>Subscribe for latest updates</p>
+                    <form action="#">
+                        <input type="email" placeholder="your email">
+                        <button type="button">Subscribe</button>
+                    </form>
+                </div>    
+            </div>
+        </div>
+        
+    </section>
+    
+    <footer>
+        Copyright
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
